@@ -4846,7 +4846,7 @@ var Menu$1 = function (_a) {
                 React__default.createElement(Logo$1, { isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
                 !isMobile && React__default.createElement(MenuItems, { items: links, activeItem: activeItem, activeSubItem: activeSubItem, ml: "24px" })),
             React__default.createElement(Flex, { alignItems: "center" },
-                React__default.createElement(Tag, { variant: "success", outline: true, mr: "8px" }, "Beta Test"),
+                React__default.createElement(Tag, { variant: "success", outline: true, mr: "8px" }, "Cassini"),
                 globalMenu,
                 " ",
                 userMenu)),
@@ -5139,7 +5139,7 @@ var getPreferredConfig = function (walletConfig) {
     ], sortedConfig.filter(function (sortedWalletConfig) { return sortedWalletConfig.title !== preferredWalletName; }));
 };
 var ConnectModal = function (_a) {
-    var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b, _c = _a.displayCount, displayCount = _c === void 0 ? 3 : _c, t = _a.t;
+    var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b, _c = _a.displayCount, displayCount = _c === void 0 ? 4 : _c, t = _a.t;
     var _d = useState(false), showMore = _d[0], setShowMore = _d[1];
     // const theme = useTheme();
     var sortedConfig = getPreferredConfig(connectors);
@@ -5209,7 +5209,7 @@ var AccountModal = function (_a) {
     return (React__default.createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React__default.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React__default.createElement(Flex, { mb: "32px" },
-            React__default.createElement(LinkExternal, { small: true, href: "https://bscscan.com/address/" + account, mr: "16px" }, "View on BscScan"),
+            React__default.createElement(LinkExternal, { small: true, href: "https://cronos.crypto.org/explorer/address/" + account, mr: "16px" }, "View on Cronos"),
             React__default.createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React__default.createElement(Flex, { justifyContent: "center" },
             React__default.createElement(Button, { scale: "sm", variant: "secondary", onClick: function () {
