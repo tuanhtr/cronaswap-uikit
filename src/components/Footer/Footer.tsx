@@ -68,20 +68,20 @@ const MenuItem: React.FC<FooterProps> = ({
 
         </Flex>
         {/* <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} /> */}
-        {/* <StyledToolsContainer
+        <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
           <Flex order={[2, null, 1]} alignItems="center">
-            <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+            {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
             <LangSelector
               currentLang={currentLang}
               langs={langs}
               setLang={setLang}
               color={darkColors.textSubtle as keyof Colors}
               dropdownPosition="top-right"
-            />
+            /> */}
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
@@ -89,7 +89,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="https://app.cronaswap.org/swap?outputCurrency=0x27b9843E2B1566a99314902F1a6c77AAA98bd9DD"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
@@ -97,7 +97,7 @@ const MenuItem: React.FC<FooterProps> = ({
               {buyCakeLabel}
             </Button>
           </Flex>
-        </StyledToolsContainer> */}
+        </StyledToolsContainer>
       </Flex>
     </StyledFooter>
   );

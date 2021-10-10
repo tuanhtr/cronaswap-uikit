@@ -111,11 +111,11 @@ const Menu: React.FC<NavProps> = ({
           {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />}
         </Flex>
         <Flex alignItems="center">
-          {/* {!isMobile && (
+          {!isMobile && (
             <Box mr="12px">
               <CakePrice cakePriceUsd={cakePriceUsd} />
             </Box>
-          )} */}
+          )}
           <Tag variant="success" outline mr="8px">
             Cassini
           </Tag>
