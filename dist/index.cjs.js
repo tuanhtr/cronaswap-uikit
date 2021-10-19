@@ -4872,7 +4872,7 @@ var Menu$1 = function (_a) {
             React__default['default'].createElement(Flex, { alignItems: "center" },
                 !isMobile && (React__default['default'].createElement(Box, { mr: "12px" },
                     React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }))),
-                React__default['default'].createElement(Tag, { variant: "success", outline: true, mr: "8px" }, "Cassini"),
+                React__default['default'].createElement(Tag, { variant: "success", outline: true, mr: "8px" }, "Cronos"),
                 globalMenu,
                 " ",
                 userMenu)),
