@@ -117,7 +117,7 @@ const Menu: React.FC<NavProps> = ({
             </Box>
           )}
           <Tag variant="success" outline mr="8px">
-            Cronos
+            Cronos Testnet
           </Tag>
           {/* <Box mt="4px">
             <LangSelector
