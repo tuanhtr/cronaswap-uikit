@@ -3812,7 +3812,7 @@ var useKonamiCheatCode = function (matchedCodeHandler) {
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#3699ff",
+    primary: "#3F79ED",
     primaryBright: "#53DEE9",
     primaryDark: "#0098A1",
     secondary: "#7645D9",
@@ -3835,7 +3835,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), additionalColors),
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
         gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#92929f", background: "#151521", backgroundDisabled: "#1b1b29", backgroundAlt: "#1b1b28", cardBorder: "#2b2b40", cardBackground: "#1e1e2d", contrast: "#FFFFFF", dropdown: "#1C3254", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#021127", inputSecondary: "#0E3382", primaryDark: "#1b1b28", tertiary: "#E5EAF2", text: "#708DB7", textDisabled: "#708DB7", textSubtle: "#3699ff", disabled: "#F2F6FC", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), additionalColors), { secondary: "#92929f", background: "#151521", backgroundDisabled: "#1b1b29", backgroundAlt: "#1b1b28", cardBorder: "#2b2b40", cardBackground: "#1e1e2d", contrast: "#FFFFFF", dropdown: "#1C3254", dropdownDeep: "#100C18", invertedContrast: "#191326", input: "#021127", inputSecondary: "#0E3382", primaryDark: "#20203C", tertiary: "#E5EAF2", text: "#4375D9", textDisabled: "#708DB7", textSubtle: "#3699ff", disabled: "#F2F6FC", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
         inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
         cardHeader: "linear-gradient(180deg, #071C3C 0%, #002B6F 100%)",
