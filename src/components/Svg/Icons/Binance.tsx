@@ -5,7 +5,7 @@ import { SvgProps } from "../types";
 const Icon: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 512 512" {...props}>
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fill-rule="evenodd">
           <circle id="Oval" fill="#103F68" cx="256" cy="256" r="256"></circle>
           <path d="M257.5,89.3149546 L401.853484,172.657477 L401.853484,339.342523 L257.5,422.685045 L113.146516,339.342523 L113.146516,172.657477 L257.5,89.3149546 Z" id="Polygon" stroke="#FFFFFF" stroke-width="17"></path>
           <polygon id="Path" fill="#FFFFFF" points="195.028577 156.491909 181.54368 217.549177 328.969372 217.549177 314.576822 156.491909"></polygon>

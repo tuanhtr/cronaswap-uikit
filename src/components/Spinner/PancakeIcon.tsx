@@ -7,17 +7,17 @@ const Icon: React.FC<SvgProps> = (props) => {
     <Svg viewBox="0 0 66 66" {...props}>
         <defs>
             <linearGradient x1="82.8104%" y1="42.6428874%" x2="12.4312954%" y2="56.6030628%" id="linearGradient-sp1">
-                <stop stop-color="#50D546" offset="0%"></stop>
-                <stop stop-color="#FFEB17" offset="51.2485211%"></stop>
-                <stop stop-color="#FF8200" offset="100%"></stop>
+                <stop stopColor="#50D546" offset="0%"></stop>
+                <stop stopColor="#FFEB17" offset="51.2485211%"></stop>
+                <stop stopColor="#FF8200" offset="100%"></stop>
             </linearGradient>
             <linearGradient x1="16.9903565%" y1="13.8851189%" x2="100%" y2="50%" id="linearGradient-sp2">
-                <stop stop-color="#003DE9" offset="0%"></stop>
-                <stop stop-color="#FF0058" offset="38.0035203%"></stop>
-                <stop stop-color="#81BB47" offset="100%"></stop>
+                <stop stopColor="#003DE9" offset="0%"></stop>
+                <stop stopColor="#FF0058" offset="38.0035203%"></stop>
+                <stop stopColor="#81BB47" offset="100%"></stop>
             </linearGradient>
         </defs>
-        <g id="p2-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="p2-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
             <g id="-slogo-with-text-D7" transform="translate(-201.000000, -157.000000)">
                 <g id="slogo" transform="translate(203.000000, 157.000000)">
                     <path d="M1.1753676,36.147541 L24.0507241,58.7148232 C26.4271089,60.8340514 28.63183,60.8340514 30.6648876,58.7148232 C38.8144814,50.411177 43.3848617,45.7544024 44.3760285,44.7444995 L44.457355,44.6616356 C44.5047955,44.6132984 44.5386815,44.5787718 44.5590132,44.5580558 L44.5818863,44.5347504 L44.5818863,44.5347504 C48.2034177,44.485009 50.1787985,44.4578774 50.5080286,44.4533554 L50.5574132,44.4526771 L50.5574132,44.4526771 C39.0884933,56.3610863 33.1628846,62.5137644 32.7805873,62.9107114 L32.7608133,62.9312431 L32.7608133,62.9312431 C28.9852431,65.8923107 25.4158489,65.8443979 22.0526307,62.7875046 C8.80355576,49.0761913 1.84779144,41.8777518 1.1853377,41.1921861 L1.15186635,41.157547 C1.1393146,41.1445574 1.13303872,41.1380625 1.13303872,41.1380625 L1.1753676,36.147541 Z M62.5955201,42.8260182 L42.2608578,63.1606805 L37.2058817,63.1606805 L57.5430339,42.8260182 L62.5955201,42.8260182 Z" id="Path-9" fill="url(#linearGradient-sp1)"></path>
