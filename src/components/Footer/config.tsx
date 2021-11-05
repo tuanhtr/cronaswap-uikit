@@ -82,6 +82,11 @@ export const socials = [
     href: "https://twitter.com/cronaswap",
   },
   {
+    label: "Discord",
+    icon: "Discord",
+    href: "https://discord.gg/YXxega5vJG",
+  },
+  {
     label: "Telegram",
     icon: "Telegram",
     href: "https://t.me/cronaswap",
