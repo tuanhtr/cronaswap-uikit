@@ -7,7 +7,7 @@ import { Colors } from "../../theme";
 
 export interface Props {
   color?: keyof Colors;
-  cakePriceUsd?: number;
+  cronaPriceUsd?: number;
 }
 
 const PriceLink = styled.a`
@@ -23,14 +23,14 @@ const PriceLink = styled.a`
   }
 `;
 
-const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
-  return cakePriceUsd ? (
+const CakePrice: React.FC<Props> = ({ cronaPriceUsd, color = "textSubtle" }) => {
+  return cronaPriceUsd ? (
     <PriceLink
       href="https://app.cronaswap.org/swap?outputCurrency=0x27b9843E2B1566a99314902F1a6c77AAA98bd9DD"
       target="_blank"
     >
       <PancakeRoundIcon width="24px" mr="8px" />
-      <Text color={color} bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color={color} bold>{`$${cronaPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />

@@ -31,23 +31,27 @@ export const footerLinks: FooterLinkType[] = [
       // },
     ],
   },
-  // {
-  //   label: "Help",
-  //   items: [
-  //     {
-  //       label: "Customer",
-  //       href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
-  //     },
-  //     {
-  //       label: "Troubleshooting",
-  //       href: "https://docs.pancakeswap.finance/help/troubleshooting",
-  //     },
-  //     {
-  //       label: "Guides",
-  //       href: "https://docs.pancakeswap.finance/get-started",
-  //     },
-  //   ],
-  // },
+  {
+    label: "Claim",
+    items: [
+      {
+        label: "Seed Sale",
+        href: "https://seed.cronaswap.org",
+      },
+      {
+        label: "Private A Sale",
+        href: "https://private.cronaswap.org/privateA",
+      },
+      {
+        label: "Private B Sale",
+        href: "https://private.cronaswap.org/privateB",
+      },
+      {
+        label: "Public Sale",
+        href: "https://app.cronaswap.org/pubsale",
+      }
+    ],
+  },
   {
     label: "Developers",
     items: [

@@ -57,7 +57,7 @@ const Menu: React.FC<NavProps> = ({
   toggleTheme,
   currentLang,
   setLang,
-  cakePriceUsd,
+  cronaPriceUsd,
   links,
   subLinks,
   footerLinks,
@@ -113,7 +113,7 @@ const Menu: React.FC<NavProps> = ({
         <Flex alignItems="center">
           {!isMobile && (
             <Box mr="12px">
-              <CakePrice cakePriceUsd={cakePriceUsd} />
+              <CakePrice cronaPriceUsd={cronaPriceUsd} />
             </Box>
           )}
           <Tag variant="success" outline mr="8px">
@@ -143,7 +143,7 @@ const Menu: React.FC<NavProps> = ({
             langs={langs}
             setLang={setLang}
             currentLang={currentLang}
-            cakePriceUsd={cakePriceUsd}
+            cronaPriceUsd={cronaPriceUsd}
             buyCakeLabel={buyCakeLabel}
             mb={[`${MOBILE_MENU_HEIGHT}px`, null, "0px"]}
           />

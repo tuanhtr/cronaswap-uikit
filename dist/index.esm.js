@@ -4534,16 +4534,16 @@ var templateObject_1$c, templateObject_2$7, templateObject_3$2, templateObject_4
 
 var PriceLink = styled.a(templateObject_1$b || (templateObject_1$b = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
-    var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default.createElement(PriceLink, { href: "https://app.cronaswap.org/swap?outputCurrency=0x27b9843E2B1566a99314902F1a6c77AAA98bd9DD", target: "_blank" },
+    var cronaPriceUsd = _a.cronaPriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
+    return cronaPriceUsd ? (React__default.createElement(PriceLink, { href: "https://app.cronaswap.org/swap?outputCurrency=0x27b9843E2B1566a99314902F1a6c77AAA98bd9DD", target: "_blank" },
         React__default.createElement(Icon$14, { width: "24px", mr: "8px" }),
-        React__default.createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
+        React__default.createElement(Text, { color: color, bold: true }, "$" + cronaPriceUsd.toFixed(3)))) : (React__default.createElement(Skeleton, { width: 80, height: 24 }));
 };
 var CakePrice$1 = React__default.memo(CakePrice);
 var templateObject_1$b;
 
 var MenuItem$1 = function (_a) {
-    var items = _a.items; _a.isDark; _a.toggleTheme; _a.currentLang; _a.langs; _a.setLang; var cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel"]);
+    var items = _a.items; _a.isDark; _a.toggleTheme; _a.currentLang; _a.langs; _a.setLang; var cronaPriceUsd = _a.cronaPriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cronaPriceUsd", "buyCakeLabel"]);
     return (React__default.createElement(StyledFooter, __assign({ p: ["40px 16px", null, "56px 40px 32px 40px"] }, props, { justifyContent: "center" }),
         React__default.createElement(Flex, { flexDirection: "column", width: ["100%", null, "1200px;"] },
             React__default.createElement(StyledIconMobileContainer, { display: ["block", null, "none"] },
@@ -4566,7 +4566,7 @@ var MenuItem$1 = function (_a) {
                     React__default.createElement(StyledSocialLinks, { order: [2] })),
                 React__default.createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default.createElement(Box, { mr: "20px" },
-                        React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
+                        React__default.createElement(CakePrice$1, { cronaPriceUsd: cronaPriceUsd, color: darkColors.textSubtle })),
                     React__default.createElement(Button, { as: "a", href: "https://app.cronaswap.org/swap?outputCurrency=0xadbd1231fb360047525BEdF962581F3eee7b49fe", target: "_blank", scale: "sm", endIcon: React__default.createElement(Icon$22, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
@@ -4816,7 +4816,7 @@ var BodyWrapper = styled(Box)(templateObject_3$1 || (templateObject_3$1 = __make
 var Inner = styled.div(templateObject_4 || (templateObject_4 = __makeTemplateObject(["\n  flex-grow: 1;\n  transition: margin-top 0.2s, margin-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  transform: translate3d(0, 0, 0);\n  max-width: 100%;\n"], ["\n  flex-grow: 1;\n  transition: margin-top 0.2s, margin-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);\n  transform: translate3d(0, 0, 0);\n  max-width: 100%;\n"])));
 var Menu$1 = function (_a) {
     var _b;
-    var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, setLang = _a.setLang, cakePriceUsd = _a.cakePriceUsd, links = _a.links, subLinks = _a.subLinks, footerLinks = _a.footerLinks, activeItem = _a.activeItem, activeSubItem = _a.activeSubItem, langs = _a.langs, buyCakeLabel = _a.buyCakeLabel, children = _a.children;
+    var userMenu = _a.userMenu, globalMenu = _a.globalMenu, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, setLang = _a.setLang, cronaPriceUsd = _a.cronaPriceUsd, links = _a.links, subLinks = _a.subLinks, footerLinks = _a.footerLinks, activeItem = _a.activeItem, activeSubItem = _a.activeSubItem, langs = _a.langs, buyCakeLabel = _a.buyCakeLabel, children = _a.children;
     var isMobile = useMatchBreakpoints().isMobile;
     var _c = useState(true), showMenu = _c[0], setShowMenu = _c[1];
     var refPrevOffset = useRef(window.pageYOffset);
@@ -4857,7 +4857,7 @@ var Menu$1 = function (_a) {
                 !isMobile && React__default.createElement(MenuItems, { items: links, activeItem: activeItem, activeSubItem: activeSubItem, ml: "24px" })),
             React__default.createElement(Flex, { alignItems: "center" },
                 !isMobile && (React__default.createElement(Box, { mr: "12px" },
-                    React__default.createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd }))),
+                    React__default.createElement(CakePrice$1, { cronaPriceUsd: cronaPriceUsd }))),
                 React__default.createElement(Tag, { variant: "success", outline: true, mr: "8px" }, "Cronos Mainnet"),
                 globalMenu,
                 " ",
@@ -4866,7 +4866,7 @@ var Menu$1 = function (_a) {
         React__default.createElement(BodyWrapper, { mt: !subLinks ? MENU_HEIGHT + 1 + "px" : "0" },
             React__default.createElement(Inner, { isPushed: false, showMenu: showMenu },
                 children,
-                React__default.createElement(MenuItem$1, { items: footerLinks, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, buyCakeLabel: buyCakeLabel, mb: [MOBILE_MENU_HEIGHT + "px", null, "0px"] }))),
+                React__default.createElement(MenuItem$1, { items: footerLinks, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cronaPriceUsd: cronaPriceUsd, buyCakeLabel: buyCakeLabel, mb: [MOBILE_MENU_HEIGHT + "px", null, "0px"] }))),
         isMobile && React__default.createElement(BottomNav, { items: links, activeItem: activeItem, activeSubItem: activeSubItem })));
 };
 var templateObject_1$7, templateObject_2$4, templateObject_3$1, templateObject_4;
