@@ -42,9 +42,9 @@ const MenuItem: React.FC<FooterProps> = ({
           alignItems="flex-start"
           mb={["42px", null, "0px"]}
         >
-          {/* {items?.map((item) => (
+          {items?.map((item) => (
             <StyledList key={item.label}>
-              <StyledListItem>{itelabel}</StyledListItem>
+              <StyledListItem>{item.label}</StyledListItem>
               {item.items?.map(({ label, href, isHighlighted = false }) => (
                 <StyledListItem key={label}>
                   <Link
@@ -59,15 +59,12 @@ const MenuItem: React.FC<FooterProps> = ({
                 </StyledListItem>
               ))}
             </StyledList>
-          ))} */}
-          <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "0px"]} />
-
+          ))}
           <Box display={["none", null, "block"]}>
             <LogoWithTextIcon isDark width="160px" />
           </Box>
-
         </Flex>
-        {/* <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} /> */}
+        
         <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
@@ -82,6 +79,8 @@ const MenuItem: React.FC<FooterProps> = ({
               color={darkColors.textSubtle as keyof Colors}
               dropdownPosition="top-right"
             /> */}
+            {/* <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} /> */}
+            <StyledSocialLinks order={[2]}/>
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
@@ -89,7 +88,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://app.cronaswap.org/swap?outputCurrency=0x27b9843E2B1566a99314902F1a6c77AAA98bd9DD"
+              href="https://app.cronaswap.org/swap?outputCurrency=0xadbd1231fb360047525BEdF962581F3eee7b49fe"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}

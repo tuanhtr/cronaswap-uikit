@@ -7,69 +7,69 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://docs.cronaswap.org/",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com/",
+        href: "https://cronaswap.medium.com/",
       },
       {
         label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://docs.cronaswap.org/",
       },
       {
-        label: "CAKE",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
+        label: "CRONA",
+        href: "https://docs.cronaswap.org/tokenomics/crona-tokenomics",
       },
-      {
-        label: "—",
-      },
-      {
-        label: "Online Store",
-        href: "https://pancakeswap.creator-spring.com/",
-        isHighlighted: true,
-      },
+      // {
+      //   label: "—",
+      // },
+      // {
+      //   label: "Online Store",
+      //   href: "https://pancakeswap.creator-spring.com/",
+      //   isHighlighted: true,
+      // },
     ],
   },
-  {
-    label: "Help",
-    items: [
-      {
-        label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
-      },
-      {
-        label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
-      },
-      {
-        label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
-      },
-    ],
-  },
+  // {
+  //   label: "Help",
+  //   items: [
+  //     {
+  //       label: "Customer",
+  //       href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+  //     },
+  //     {
+  //       label: "Troubleshooting",
+  //       href: "https://docs.pancakeswap.finance/help/troubleshooting",
+  //     },
+  //     {
+  //       label: "Guides",
+  //       href: "https://docs.pancakeswap.finance/get-started",
+  //     },
+  //   ],
+  // },
   {
     label: "Developers",
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/cronaswap",
       },
       {
         label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.cronaswap.org",
       },
-      {
-        label: "Bug Bounty",
-        href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
-      },
+      // {
+      //   label: "Bug Bounty",
+      //   href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
+      // },
       {
         label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.cronaswap.org/security-audits",
       },
       {
         label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        href: "https://docs.cronaswap.org/hiring/careers",
       },
     ],
   },
